@@ -31,4 +31,4 @@ Future Plans
 I plan to apply the knowledge gained from this course to real-world projects. Stay tuned for exciting updates and practical applications of Tailwind CSS!
 
 Get in Touch
-Feel free to reach out with any questions or suggestions. Happy coding! 😊✨
+Feel free to reach out with any questions or suggestions. Happy coding!! 😊✨
