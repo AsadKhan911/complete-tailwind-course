@@ -1,6 +1,0 @@
-SPACE BETWEEN:-
-When we were using vanila Css and we want to make navbar using that. we make nav inside that me wake ul and inside ul we make different li(so when we want all list items to make space between them we allot ever li a same name class and directly target that class with margin. But in tailwind we will not target every li instead we use space between class in ul to give space between every li eg: space-x-4 it is use  for controlling the space between child elements.
-
-But from horizontal margin in space between such as space-y-4 it will target every child except the first one so if you want all elements to target just make the first list blank and rest of all with content in this way your all list items gets equal margin from y.
-
-BORDERS:- To add border in divs or buttons etc first we need to specify border width etc border-2 (2px) and then border colour border-yellow-600 etc.
