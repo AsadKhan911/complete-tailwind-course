@@ -1,0 +1,7 @@
+SQUARE BRACKET NOTATION:-
+
+In square bracket notation the purpose is..When we dont find any pixel value of margin or padding or anything of our choice we can use square bracket notation to specify our required value according to our need.
+
+Syntax : <div class="  my-[50px]">This is the tutorial of SBN</div>
+<div class=" bg-blue-400 my-[5rem]">This is the tutorial of SBN</div>
+<div class=" bg-blue-400 my-[2%]">This is the tutorial of SBN</div>
