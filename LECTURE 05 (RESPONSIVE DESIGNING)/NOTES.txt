@@ -1,0 +1,10 @@
+RESPONSIVE DESIGNING:-
+
+In responsiveness in tailwind we have multiple short classes define for all kind of screen
+For small screens min width 640px we use BREAKPOINT 'sm'
+For medium screens min width 768px we use BREAKPOINT 'md'
+For large screens min width 1024px we use BREAKPOINT 'lg'
+For extra large screen min width 1280px we use BREAKPOINT 'xl'
+For double xl screen min width 1536px we use BREAKPOINT '2xl'
+
+TRICK: When you are building a tailwind website just go for small screen as you can, then make website according to that screen and then for big screen gradually apply the tailwind classes means first make for mobile then for big screens it will make work easier.
