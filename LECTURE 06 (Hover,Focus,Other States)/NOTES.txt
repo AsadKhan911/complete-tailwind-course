@@ -1,0 +1,8 @@
+HOVER:-
+Hover as we learn in vanillacss is the same concept just SYNTAX is different which is hover:(and write your classes which you want to implement)
+
+ACTIVE:-
+Active is the state when user clicks on a particular element(such as button or link etc) we can specify the classes to active state as well just we specify for hover state SYNTAX active:(and write your classes which you want to implement)
+
+FOCUS:-
+Focus is the state when user didnt yet click on a particular element but the control is on that element just like in any form we press tab button to move it to the next input and where tab let us go those are the focus state. SYNTAX : focus:(and write your classes which you want to implement)
