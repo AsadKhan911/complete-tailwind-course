@@ -1,0 +1,20 @@
+APPLY DIRECTIVE:-
+So what is meant by apply directive? Suppose you made a button and add some classes of tailwind in it , and you can see in your project that there are many places on which the same button is being used so rather to write same classes again and again for your buttons you make a separte class with a unique name for that button such as .btn and whenever you want to made that button you just apply class=btn and those all classes will be applied to your button.
+
+METHOD TO MAKE IT:-
+
+1). First of all copy all the classes that you want to put in a single class.
+2). Secondly go in the input.css file and put that code below the @tailwind components.
+
+SYNTAX: @tailwind base;
+@tailwind components;
+
+	.btn {
+   	 @apply ml-12 mt-12 text-white bg-green-700 hover:bg-green-800 focus:outline-none focus:ring-4 focus:ring-green-300 font-medium rounded-full text-sm px-5 py-	 2.5 text-center me-2 mb-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800
+	     }
+
+@tailwind utilities; 
+
+-> You can also put after @tailwind utilities if you want that your classes overwrite tailwind utility classes and if you place before @tailwind utilities then @tailwind utilities overwrite your classes. 
+
+GOOD PRACTICE: The good practice according to me is place before tailwind utility classes.
