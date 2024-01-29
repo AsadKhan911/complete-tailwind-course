@@ -1,0 +1,11 @@
+LAYER DIRECTICE:-(WHAT IS IT?)
+
+Ok so, we have seen in the last lecture about apply directive which means that if we want to allot some some classes of tailwind to use them in future for some components that have the use of that same classes so we can just put that class name and we put apply directive between the tailwind classes or after the tailwind class. But WHAT IS LAYER DIRECTIVE? Now comes layer directive we see that we put apply directive classes between the layers but not as a part of pre defined layers of layers. If we want to add our apply directive in the predefined classes of the tailwind and make our apply directive to be a part of those classes such as @tailwind base class , or @tailwind components class or @tailwnd utilites classes so we use layer directive so that it make that class a part of predefined classes.
+
+SYNTAX :
+
+@layer utilities {
+    .btn1 {
+        @apply w-44 bg-yellow-700 mx-4;
+    }
+}
