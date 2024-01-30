@@ -1,0 +1,14 @@
+DEPLOYING A TAILWIND WEBSITE TO PRODUCTION:-
+
+Means if we want to deploy our website to such as github or anywhere we dont want that we deploy our whole website written in tailwind(because of its big size) along with different js files etc. We just type some commands and it will make a separte folder for us and that folder we will use to deploy our websites.
+
+STEPS:-
+1). First of all go in package.json file and in the "scripts" section there is written (in our case) "start" : "vite" and we have just add one thing below it which is "build" : "vite build"
+
+SYNTAX:
+"scripts": {
+    "start": "vite",
+    "build": "vite build"
+  }
+
+2). After doing first step open the command prompt in vs code and type command npm run build...after typing this command it will make a folder named "dist" and the folder contains all your website. Now this website has a small size as compare to the actual file you can use it to deploy anywhere to use in lesser bandwidth.
